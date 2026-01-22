@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #0d0f16;
+    color: #d8d8d8;
+}
+
+.navbar {
+    width: 90%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+.nav-links a:hover {
+    color: rgb(190, 186, 188);
+}
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #cd0b6f85;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #cfd6e4;
+    font-size: 15px;
+}
+
+.temoignage-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px 10px; 
+}
+
+
+.temoignage-card {
+    max-width: 800px;
+    background-color: #161b22;
+    padding: 50px 40px;
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.temoignage-card h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #cd0b6f85;
+    font-size: 32px;
+}
+
+.texte {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #d1d5db;
+    text-align: justify;
+}
+
+.auteur {
+    margin-top: 30px;
+    text-align: right;
+    border-top: 1px solid #2a2f3a;
+    padding-top: 15px;
+}
+
+.auteur strong {
+    color: #f1f5f9;
+    font-size: 16px;
+}
+
+.auteur span {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.video-container {
+    min-height: auto;      
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    margin: 0;                
+    padding: 20px 0; 
+}         
+
+video {
+    width: 70%;
+    max-width: 800px;
+    border-radius: 12px;
+    display: block;
+}
+.video-text {
+    font-size: 16px;
+    color: #cbd5e1;
+    margin-bottom: 10px;   
+    text-align: center;
+}

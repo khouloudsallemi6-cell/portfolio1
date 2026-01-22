@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #0e1217;
+    color: #e4e8ef;
+}
+
+.navbar {
+    width: 90%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #cd0b6f85;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #cfd6e4;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    color: rgb(190, 186, 188);
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.card {
+    background: #1a202e;
+    padding: 25px;
+    border: 1px solid #1f2632;
+    box-shadow: 0px 2px 10px #00000040;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    background: #0e1217;
+    border: 1px solid #1f2632;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+    color: #e4e8ef;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background: #cd0b6f85;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    opacity: 0.85;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #1f2632;
+}
+
+.social-item:last-child {
+    border-bottom: none;
+}
+
+.social-item i {
+    font-size: 20px;
+    color: #cd0b6f85;
+}
+
+.social-item a {
+    text-decoration: none;
+    color: #cfd6e4;
+    font-size: 15px;
+}
+
+.social-item a:hover {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
